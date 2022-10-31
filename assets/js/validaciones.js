@@ -8,7 +8,7 @@ $(".formulario-categorias").submit(function(){
         errores.push("El nombre de la categoría está vacío");
     
     if(!($("#check1:checked").val() || $("#check2:checked").val() || $("#check3:checked").val()))
-        errores.push("no seleccionó ninguna prioridad");
+        errores.push("No seleccionó ninguna prioridad");
     
     if(errores.length > 0){
         alert(errores.join("\n"))
