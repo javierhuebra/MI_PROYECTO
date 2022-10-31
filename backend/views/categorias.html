@@ -13,30 +13,35 @@
 </head>
 
 <body>
-    <div class="cont-form">
-    <form class="formulario">
+    <div class="cont-form" >
+    <form class="formulario-categorias">
         <label for="nombre_categoria">Nombre de Categoría:</label>
-        <input type="text" name="nombre_categoria" placeholder="Categoría...">
+        <input class="nombre-categoria" type="text" name="nombre_categoria" placeholder="Categoría...">
         <label class="radio-buttons" for="nombre_categoria">Nivel de Prioridad:
            
                 <label>
-                    <input type="radio" name="prioridad" value="maxima"> Maxima
+                    <input id="check1" type="radio" name="prioridad" value="maxima"> Maxima
                 </label>
                 <label>
-                    <input type="radio" name="prioridad" value="media"> Media
+                    <input id="check2" type="radio" name="prioridad" value="media"> Media
                 </label>
                 <label>
-                    <input type="radio" name="prioridad" value="baja"> Baja
+                    <input id="check3" type="radio" name="prioridad" value="baja"> Baja
                 </label>
             
         </label>
         <label class="buttons">
-            <input type="submit" value="enviar">
-            <input type="button" value="cancelar">
+            <input class=".enviar-btn" type="submit" value="enviar">
+            <input class=".cancelar-btn" type="submit" value="cancelar">
         </label>
         <label class="nombre">Javier Emanuel Huebra</label>
     </form>
 </div>
 </body>
-
+<script 
+    src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  
+    crossorigin="anonymous">
+</script>
+<script src="../../assets/js/validaciones.js"></script>
 </html>

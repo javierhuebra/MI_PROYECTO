@@ -14,16 +14,16 @@
 
 <body>
     <div class="cont-form">
-    <form class="formulario">
-        <label for="nombre_categoria">Producto:</label>
-        <input type="text" name="nombre_categoria" placeholder="Producto...">
+    <form class="formulario-productos">
+        <label for="nombre_producto">Producto:</label>
+        <input class="nombre-producto" type="text" name="nombre_producto" placeholder="Producto...">
         <label class="radio-buttons" for="nombre_categoria">En venta:
            
                 <label>
-                    <input type="radio" name="en_venta" value="si"> SI
+                    <input id="check1" type="radio" name="en_venta" value="si"> SI
                 </label>
                 <label>
-                    <input type="radio" name="en_venta" value="no"> NO
+                    <input id="check2" type="radio" name="en_venta" value="no"> NO
                 </label>
             
         </label>
@@ -35,5 +35,10 @@
     </form>
 </div>
 </body>
-
+<script 
+    src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  
+    crossorigin="anonymous">
+</script>
+<script src="../../assets/js/validaciones.js"></script>
 </html>
