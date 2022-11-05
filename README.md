@@ -1,4 +1,7 @@
 # 💻 MI_PROYECTO
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=javierhuebra&label=Profile%20views&color=153066&style=flat" alt="javierhuebra" /></p>
+
 Proyecto para materia Programación Web de <a href="https://www.teclab.edu.ar/">instituto TECLAB</a>
 ## Tecnologías utilizadas:
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=plastic&logo=jquery&logoColor=white)
