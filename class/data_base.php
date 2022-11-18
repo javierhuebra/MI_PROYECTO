@@ -1,4 +1,8 @@
 <?php
+/* @Autor: Huebra Javier Emanuel
+@Institucion: Teclab 
+https://github.com/javierhuebra 
+*/
 try {
     $conector = new PDO("mysql:dbname=miproyecto;host=127.0.0.1","root","");
     echo "conexion exitosa";

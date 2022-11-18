@@ -1,5 +1,8 @@
 <?php
-
+/* @Autor: Huebra Javier Emanuel
+@Institucion: Teclab 
+https://github.com/javierhuebra
+*/
 class productos
 {
     protected $id;
