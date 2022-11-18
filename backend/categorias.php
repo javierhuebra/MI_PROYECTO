@@ -6,9 +6,9 @@ if(isset($_POST['accion']) && $_POST['accion'] == 'guardar'){
     $miCategoria->nombre = $_POST['categoria'];
     $miCategoria->guardar();
 }else if (isset($_GET['add'])){
-    include 'view/categorias.html';
+    include 'views/categorias.html';
     die();
 }
 $lista_ctg = Categorias::listar();
-include 'views/lista_Categorias.html';
+include 'views/lista_categorias.html';
 ?>
