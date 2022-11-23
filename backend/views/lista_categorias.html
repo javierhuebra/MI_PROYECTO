@@ -11,12 +11,14 @@
 </head>
 <body>
     <div class="container">
-        <div><div class="id">ID</div> <div class="nombre">NOMBRE</div></div>
+        <br>
+        <br>
+        <div class="id">ID NOMBRE</div>
         <div class="lista-categorias">
             <?php foreach ($lista_ctg as $listaCategorias) {?>
              <div class="categoria">
-                <div class="id"><?php echo $listaCategorias['id'] ?></div>
-                <div class="nombre"><?php echo $listaCategorias['nombre_categoria'] ?></div>
+                <?php echo $listaCategorias['id'] ?>
+                <?php echo $listaCategorias['nombre_categoria'] ?>
             </div>   
              <?php } ?>
         </div>

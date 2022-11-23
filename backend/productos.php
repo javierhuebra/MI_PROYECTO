@@ -15,5 +15,5 @@ if (isset($_POST['accion']) && $_POST['accion'] === 'guardar') {
     die();
 }
 $lista_pro = Productos::listar();
-include 'views/lista_categorias.html';
+include 'views/lista_productos.html';
 ?>

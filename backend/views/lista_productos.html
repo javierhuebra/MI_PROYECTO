@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <br>
+        <br>
+        <div>Listado de Productos</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOMBRE</th>
+                    <th>DESCRIPCION</th>
+                    <th>PRECIO</th>
+                    <th>CATEGORIA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($lista_pro as $listaProductos) { ?>
+                    <tr>
+                        <td><?php echo $listaProductos['id'] ?></td>
+                        <td><?php echo $listaProductos['nombre_producto'] ?></td>
+                        <td><?php echo $listaProductos['descripcion'] ?></td>
+                        <td><?php echo $listaProductos['precio'] ?></td>
+                        <td><?php echo $listaProductos['categoria_id'] ?></td>
+                    </tr>
+                    <?php } ?>
+            </tbody>
+        </table>
+    </div>
+    <a href="productos.php?add">Agregar</a>
+</body>
+</html>
