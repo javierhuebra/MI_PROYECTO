@@ -13,8 +13,8 @@ Proyecto para materia Programación Web de <a href="https://www.teclab.edu.ar/">
 <a href="https://drive.google.com/file/d/16g38wzA8Htz1KAso53TMbG1kxJ3Te2Lb/view?usp=sharing"><img width="200px" src="./assets/img/API2.PNG"/><br>#VER ACTIVIDAD 2</a>
 <br>
 <br>
-#ACTIVIDAD 3....(Pending)
+<a href="https://drive.google.com/file/d/1KzP133RNJo_gAedDwl_n8-orhPjljxCf/view?usp=sharing"><img width="200px" src="./assets/img/API3.PNG"/><br>#VER ACTIVIDAD 3</a>
 <br>
 <br>
-#ACTIVIDAD 4....(Pending)
+<a href="https://drive.google.com/file/d/1UHI_dDZDDF02zpIPNzDjAu_2bP1eJ7r8/view?usp=sharing"><img width="200px" src="./assets/img/API4.PNG"/><br>#VER ACTIVIDAD 4</a>
 </div>
