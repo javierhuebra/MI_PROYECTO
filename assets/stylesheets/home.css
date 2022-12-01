@@ -1,0 +1,40 @@
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(170, 255, 170);
+}
+.logo{
+    height: 10vh;
+}
+.main{
+    background-color: rgb(159, 197, 101);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+thead{
+    background-color: white;
+    font-size: 25px;
+    height: 80px;
+}
+.cont {
+    background-color: rgb(193, 243, 226);
+    font-size: 22px;
+}
+
+.cont td{
+    height: 100px;
+    
+}
+
+.img-tab{
+    height: 80px;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+<?php
+    include './class/data_base.php';
+    $resources = $conector->prepare("SELECT productos.nombre_producto, categoria.nombre_categoria, productos.descripcion FROM productos JOIN categoria on productos.categoria_id = categoria.id");
+    $resources -> execute();
+    $productos = $resources->fetchAll(PDO::FETCH_ASSOC);
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/stylesheets/home.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="http://stockatacadista.com.br/wp-content/themes/stockatacadista/assets/images/logo.svg" alt="logo stock">
+    </div>
+    <div class="main">
+        <table>
+            <thead>
+                <th>Imagen Producto</th>
+                <th>Nombre Producto</th>
+                <th>Categoria Producto</th>
+                <th>Descripción Producto</th>
+            </thead>
+            <?php foreach ($productos as $producto) { ?>
+                <tr class="cont">
+                    <td class="img-cont"><img  class="img-tab" src="<?php echo $producto['nombre_producto']?>.png" alt=""></td>
+                    <td><?php echo $producto['nombre_producto'] ?></td>
+                    <td><?php echo $producto['nombre_categoria'] ?></td>
+                    <td><?php echo $producto['descripcion'] ?></td>
+                </tr>
+            <?php } ?>
+            
+        </table>
+    </div>
+</body>
+</html>
